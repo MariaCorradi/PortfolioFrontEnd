@@ -1,0 +1,26 @@
+.row {
+  padding: 20px;
+  background: rgb(139, 23, 176);
+  background: radial-gradient(
+    circle,
+    rgba(139, 23, 176, 1) 0%,
+    rgba(177, 180, 184, 1) 100%
+  );
+  border-radius: 32px;
+  margin: 5px 5px;
+  padding: 50px;
+  border-color: #8b17b0;
+}
+.container {
+  width: auto;
+}
+
+.first-part,
+.second-part {
+  display: inline-block;
+  text-align: justify;
+}
+
+.img-proyecto {
+  box-shadow: 10px 10px 30px black;
+}
